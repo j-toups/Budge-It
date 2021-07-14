@@ -7,18 +7,10 @@ Built with HTML, CSS, Javascript, MongoDB, Mongoose, and Service Workers.
 
 # Deployed Application
 
-Heroku Link: 
-
-Offline image:
-
-![Offline]()
-
-Online image:
-
-![Offline]()
+Heroku Link: https://mysterious-hollows-82099.herokuapp.com/
 
 # Installation 
-To install dependencies run 'npm i', then start by running 'npm start'.
+To install dependencies run 'npm i', then start by running 'npm start'. 
 
 # Contributor 
 Joseph Toups
