@@ -23,6 +23,7 @@
     "express": "^4.17.1",
     "lite-server": "^2.5.3",
     "mongoose": "^5.13.2",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "webmanifest-loader": "^0.3.0"
   }
 }
