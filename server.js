@@ -3,7 +3,9 @@ const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
 
-const PORT = 3000;
+app.listen(process.env.PORT || 3000, function (){
+  console.log("server listening on port %d in %s mode", this.address().port, app.settings.env)
+})
 
 const app = express();
 
