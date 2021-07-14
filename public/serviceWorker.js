@@ -6,6 +6,7 @@ const STATIC_CACHE = "static-cache-v2";
 const DATA_CACHE = "data-cache-v1";
 
 const FILES_TO_CACHE = [
+    "/",
     "index.html",
     "index.js",
     "db.js",
@@ -15,7 +16,7 @@ const FILES_TO_CACHE = [
     "icons/icon-512x512.png"
 ];
   
-self.addEventListener(`install`, event => {
+self.addEventListener('install', event => {
   event.waitUntil(
     caches
       .open(STATIC_CACHE)
