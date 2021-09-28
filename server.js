@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/HW18',
+  process.env.MONGODB_URI || 'mongodb://localhost/protected-earth-28741',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
